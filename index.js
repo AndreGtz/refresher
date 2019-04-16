@@ -1,4 +1,5 @@
 const request = require('request-promise');
+const SECRETS = require('./secrets');
 
 request({
     method: 'POST',
