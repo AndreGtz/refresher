@@ -2,7 +2,7 @@ const request = require('request-promise');
 
 request({
     method: 'POST',
-    uri: `${SECRETS.serverUrl}/api/v1/refresh`,
+    uri: `${SECRETS.serverUrl}/api/v1/proximidad`,
     body: {},
     json: true // Automatically stringifies the body to JSON
 })
